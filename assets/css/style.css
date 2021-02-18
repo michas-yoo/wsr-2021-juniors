@@ -1,0 +1,11 @@
+.screen {
+  z-index: 1;
+}
+
+.screen.current {
+  z-index: 3;
+}
+
+.stone, .heart {
+  transition: all .3s;
+}
