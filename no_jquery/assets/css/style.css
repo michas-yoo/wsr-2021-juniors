@@ -1,0 +1,21 @@
+.screen {
+  opacity: 0;
+  z-index: 1;
+}
+
+.current {
+  z-index: 2;
+}
+
+.current, .current .box-wrapper {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.stone, .heart {
+  transition: all .3s;
+}
+
+.player {
+  position: absolute;
+}
